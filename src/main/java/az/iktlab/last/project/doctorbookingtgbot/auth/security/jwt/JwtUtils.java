@@ -1,9 +1,6 @@
 package az.iktlab.last.project.doctorbookingtgbot.auth.security.jwt;
 
-<<<<<<< HEAD
-public class JwtUtils {
-}
-=======
+
 import az.iktlab.last.project.doctorbookingtgbot.auth.security.services.UserDetailsImpl;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
@@ -51,4 +48,4 @@ public class JwtUtils {
         return false;
     }
 }
->>>>>>> 16496d3 (Initial commit-create Authentication structure, create packages and class)
+

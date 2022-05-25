@@ -1,9 +1,5 @@
 package az.iktlab.last.project.doctorbookingtgbot.auth.security.jwt;
 
-<<<<<<< HEAD
-public class AuthTokenFilter {
-}
-=======
 import az.iktlab.last.project.doctorbookingtgbot.auth.security.services.impl.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,4 +50,4 @@ public class AuthTokenFilter extends OncePerRequestFilter {
         return null;
     }
 }
->>>>>>> 16496d3 (Initial commit-create Authentication structure, create packages and class)
+

@@ -1,8 +1,12 @@
 package az.iktlab.last.project.doctorbookingtgbot.auth.security.services;
 
-<<<<<<< HEAD
-public class UserDetailsImpl {
-=======
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.security.core.GrantedAuthority;
+
+import java.util.Collection;
+
+
 import az.iktlab.last.project.doctorbookingtgbot.auth.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
@@ -85,5 +89,5 @@ public class UserDetailsImpl implements UserDetails {
         UserDetailsImpl user = (UserDetailsImpl) o;
         return Objects.equals(id, user.id);
     }
->>>>>>> 16496d3 (Initial commit-create Authentication structure, create packages and class)
+
 }
